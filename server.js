@@ -21,5 +21,5 @@ app.get('/notes', (req, res) => {
 })
 
 app.listen(process.env.PORT || 3001, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
+  console.log(`App listening`)
 );
